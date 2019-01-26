@@ -1,4 +1,4 @@
-# Fabelio Project Test 
+# Django Project Test 
 By : [iColdPlayer](https://icoldplayer.github.io)
 
 > ***How To Deploy***
