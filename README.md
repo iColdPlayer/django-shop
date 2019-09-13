@@ -1,14 +1,33 @@
-# Django Project Test 
-By : [iColdPlayer](https://icoldplayer.github.io)
+# Online shop starter using django
 
-> ***How To Deploy***
+### Installation
 
-Download this file folder to your computer
-Open your terminal if you're using linux or mac and CMD if you're using windows 
-Move to your folder where this file and move to project directory ```fabelio-test``` are exist
-And then run the server by typing ```python manage.py runserver```
-The server will run locally and you can check the app by typing ```127.0.0.1:8000``` in your browser
 
-Done!!!
+Clone the repository to you local machine, and move to the project folder.
+```
+git clone https://github.com/iColdPlayer/django-shop.git
 
-**Note** : _*This is not included payment method, shipment method and also user authentication*_
+cd django-shop
+```
+Create the VirtualEnv for your Django project, learn more about Virtual Environment [here](https://dev.notnoob.com/tutorial-virtual-environment/) (Indonesian).
+
+```
+python -m venv env
+
+source env/bin/activate
+```
+
+Install the dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+Run the server and you're ready to go.
+
+```
+./manage.py runserver
+```
+Visit your localhost : `localhost:8000`
+
+Thank you!.
